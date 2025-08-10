@@ -8,7 +8,7 @@ export default defineConfig(({ mode }) => ({
   server: {
     host: "::",
     port: 3001,
-    allowedHosts: ['pet-paradise.serverwegrowup.com.br'],
+    allowedHosts: ['*.serverwegrowup.com.br'],
   },
   plugins: [
     react(),
